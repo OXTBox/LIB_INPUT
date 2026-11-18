@@ -1,0 +1,40 @@
+# LIB_INPUT, the developer face: every device, every slot, presets, profiles, files.
+# Shown by Input.ShowDeveloper (LIB_GUI builds it).
+gui	1
+window	InputDev	720,520	Input: developer	theme=dark	min=640,460
+tabs	pages	8,36,704,442	Live|Actions|Presets|Profiles|Files	value=Live	stick=left,top,right,bottom
+label	appname	12,8,696,22	stick=left,top,right
+panel	pLive	16,70,688,400	tab=pages:Live	stick=left,top,right,bottom
+label	devices	10,8,668,58	in=pLive	stick=left,top,right
+label	livehelp	10,72,668,20	Held right now: the raw spelling, how far (0 to 1), its name. Press anything.	in=pLive	stick=left,top,right
+text	live	10,96,668,294	in=pLive	stick=left,top,right,bottom
+panel	pActions	16,70,688,400	tab=pages:Actions	stick=left,top,right,bottom
+list	dactions	10,8,668,210	in=pActions	stick=left,top,right,bottom
+label	rawlabel	10,228,668,20	The selected line as raw inputs ( | between them):	in=pActions	stick=left,bottom
+field	draw	10,250,440,24	in=pActions	stick=left,right,bottom	hint=key:A|key:Left|pad:LX-
+button	dset	458,250,60,24	Set	in=pActions	stick=right,bottom
+button	dadd	526,250,152,24	Add by pressing...	in=pActions	stick=right,bottom
+label	conflabel	10,284,668,20	On more than one action:	in=pActions	stick=left,bottom
+text	dconf	10,306,668,84	in=pActions	stick=left,right,bottom
+panel	pPresets	16,70,688,400	tab=pages:Presets	stick=left,top,right,bottom
+list	dpresets	10,8,668,300	in=pPresets	stick=left,top,right,bottom
+button	duse	10,318,150,26	Use this preset	in=pPresets	stick=left,bottom
+button	dnone	168,318,150,26	No preset	in=pPresets	stick=left,bottom
+field	dpname	10,358,300,24	in=pPresets	stick=left,bottom	hint=A name for your own preset
+button	dpsave	318,358,170,24	Save bindings as preset	in=pPresets	stick=left,bottom
+panel	pProfiles	16,70,688,400	tab=pages:Profiles	stick=left,top,right,bottom
+list	dprofiles	10,8,300,220	in=pProfiles	stick=left,top,bottom
+button	dprofuse	10,238,150,26	Switch to it	in=pProfiles	stick=left,bottom
+field	dprofname	10,278,300,24	in=pProfiles	stick=left,bottom	hint=A name for a new profile
+button	dprofnew	10,310,146,26	New, empty	in=pProfiles	stick=left,bottom
+button	dprofcopy	164,310,146,26	New, a copy of this one	in=pProfiles	stick=left,bottom
+label	dzlabel	330,8,340,20	Stick dead zone (percent)	in=pProfiles
+slider	deadzone	330,30,340,24	min=0	max=90	value=20	in=pProfiles	stick=left,top,right
+label	senslabel	330,66,340,20	Sensitivity (percent)	in=pProfiles
+slider	sensitivity	330,88,340,24	min=10	max=300	value=100	in=pProfiles	stick=left,top,right
+toggle	invert_y	330,124,200,24	Invert Y	in=pProfiles
+panel	pFiles	16,70,688,400	tab=pages:Files	stick=left,top,right,bottom
+label	fileshelp	10,8,668,20	Where each layer came from. The last one wins.	in=pFiles	stick=left,top,right
+list	dfiles	10,32,668,310	in=pFiles	stick=left,top,right,bottom
+button	dexplore	10,352,150,26	Explore here...	in=pFiles	stick=left,bottom
+label	dstatus	12,486,696,24	stick=left,right,bottom

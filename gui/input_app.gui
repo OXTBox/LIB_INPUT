@@ -1,0 +1,14 @@
+# LIB_INPUT, the app face: only the inputs this app asked for, in its own words.
+# Shown by Input.ShowSettings (LIB_GUI builds it). Every change is saved at once.
+gui	1
+window	InputApp	480,440	Controls	theme=dark	min=400,320
+label	help	12,10,456,20	Click a line, then press the key or button you want for it.	stick=left,top,right
+list	actions	12,36,456,270	stick=left,top,right,bottom
+label	status	12,312,456,22	stick=left,right,bottom
+label	layoutlabel	12,346,56,22	Layout	stick=left,bottom
+choice	preset	72,344,170,24	App default	stick=left,bottom	tip=A ready-made layout; your own changes go on top of it
+button	clear	250,344,110,24	Clear this line	stick=left,bottom	tip=Take every key and button off the selected line
+line	rule	12,380,456,0	stick=left,right,bottom
+button	reset	12,396,150,28	Reset to default	stick=left,bottom	tip=Back to the way the app came
+button	more	312,396,76,28	More...	stick=right,bottom	tip=Every device, preset and profile (the developer window)
+button	done	396,396,72,28	Done	stick=right,bottom

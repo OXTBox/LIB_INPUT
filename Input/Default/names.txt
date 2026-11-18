@@ -1,0 +1,85 @@
+# LIB_INPUT names: raw spelling, the words shown to people, the codes behind it
+# key: codes are the keysDown codes (letters and digits are built in: key:A..key:Z, key:0..key:9)
+# pad: "button N" or "axis N -" / "axis N +" (raylib numbers). mouse: "button N" or "pulse".
+key:Space	Space	32
+key:Left	Left Arrow	65361
+key:Up	Up Arrow	65362
+key:Right	Right Arrow	65363
+key:Down	Down Arrow	65364
+key:Shift	Shift	65505,65506
+key:Control	Control	65507,65508
+key:Alt	Alt	65513,65514
+key:Tab	Tab	65289
+key:Return	Return	65293
+key:Backspace	Backspace	65288
+key:Delete	Delete	65535
+key:Escape	Escape	65307
+key:Home	Home	65360
+key:End	End	65367
+key:PageUp	Page Up	65365
+key:PageDown	Page Down	65366
+key:Insert	Insert	65379
+key:Comma	,	44
+key:Period	.	46
+key:Slash	/	47
+key:Semicolon	;	59
+key:Quote	'	39
+key:LeftBracket	[	91
+key:RightBracket	]	93
+key:Minus	-	45
+key:Equals	=	61
+key:Backquote	`	96
+key:Backslash	\	92
+key:KeypadEnter	Keypad Enter	65421
+key:F1	F1	65470
+key:F2	F2	65471
+key:F3	F3	65472
+key:F4	F4	65473
+key:F5	F5	65474
+key:F6	F6	65475
+key:F7	F7	65476
+key:F8	F8	65477
+key:F9	F9	65478
+key:F10	F10	65479
+key:F11	F11	65480
+key:F12	F12	65481
+key:Keypad0	Keypad 0	65456
+key:Keypad1	Keypad 1	65457
+key:Keypad2	Keypad 2	65458
+key:Keypad3	Keypad 3	65459
+key:Keypad4	Keypad 4	65460
+key:Keypad5	Keypad 5	65461
+key:Keypad6	Keypad 6	65462
+key:Keypad7	Keypad 7	65463
+key:Keypad8	Keypad 8	65464
+key:Keypad9	Keypad 9	65465
+mouse:1	Left Mouse	button 1
+mouse:2	Middle Mouse	button 2
+mouse:3	Right Mouse	button 3
+mouse:wheel+	Wheel Up	pulse
+mouse:wheel-	Wheel Down	pulse
+pad:DUp	D-pad Up	button 1
+pad:DRight	D-pad Right	button 2
+pad:DDown	D-pad Down	button 3
+pad:DLeft	D-pad Left	button 4
+pad:Y	Y	button 5
+pad:B	B	button 6
+pad:A	A	button 7
+pad:X	X	button 8
+pad:LB	Left Bumper	button 9
+pad:LT	Left Trigger	button 10
+pad:RB	Right Bumper	button 11
+pad:RT	Right Trigger	button 12
+pad:Back	Back	button 13
+pad:Guide	Guide	button 14
+pad:Start	Start	button 15
+pad:LS	Left Stick Click	button 16
+pad:RS	Right Stick Click	button 17
+pad:LX-	Left Stick Left	axis 0 -
+pad:LX+	Left Stick Right	axis 0 +
+pad:LY-	Left Stick Up	axis 1 -
+pad:LY+	Left Stick Down	axis 1 +
+pad:RX-	Right Stick Left	axis 2 -
+pad:RX+	Right Stick Right	axis 2 +
+pad:RY-	Right Stick Up	axis 3 -
+pad:RY+	Right Stick Down	axis 3 +

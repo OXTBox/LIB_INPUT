@@ -1,0 +1,9 @@
+# LIB_INPUT preset: action, then its inputs. A button: one column. An axis: the negative side, then the positive side.
+# Only the actions an app has are used. Copy this file to the Data folder (Scripts/Input/Presets) to make your own.
+move_x	key:Left	key:Right
+move_y	key:Down	key:Up
+fire	key:Space
+jump	key:Space
+run	key:Shift
+reload	key:Return
+use	key:Control
