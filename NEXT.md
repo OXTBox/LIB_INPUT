@@ -36,9 +36,14 @@
 - The other games still read key codes. Each needs a small actions file and five or so changed lines.
 - No controller on the plain XT edition (no raylib window): its own later job (an XInput shim).
 
-## Uncommitted in other repos (their branches are someone else's work)
+## Its pieces in other repos: each on its own `input-steps` branch, made from `main` (18 Nov, Opus)
 
-- `LIB_DEV/livecode/game_player.livecodescript` (branch `on-git-or-not`)
-- `LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_Hunter.livecodescript` and `.input.txt` (branch `vector-toss-dangle`)
-- `LIB_ig3d/ENGINE_CONTRACT.md` (one row), `LIB_DEV/ProjectMap/board.txt` (the LIB_INPUT block)
+Merge these together with this repo's `input-steps`:
+- `LIB_DEV` `input-steps`: `livecode/game_player.livecodescript` (Controls...)
+- `LIB_GAMES` `input-steps`: Hunter's script and `Vibecode3D_Play_Hunter.input.txt`
+- `LIB_ig3d` `input-steps`: the `Input.` row in `ENGINE_CONTRACT.md`
+- The LIB_INPUT card on the Project Map: committed on LIB_DEV `on-git-or-not` with the map
 - `OXT-BEYOND/tests/t48_lib_input.txt` (not a git repo)
+
+The working folders still show the three files as changed (their checked-out branches are other
+work). After the merges they match `main` and the changes disappear.
