@@ -1,6 +1,6 @@
 # LIB_INPUT: what next
 
-18 Nov 2026, by Claude (Fable 5.2). On branch `input-steps` (a local repo, no remote), waiting for the owner.
+18 Nov 2026, by Claude (Fable 5.2). Merged to `main` 18 Nov (the owner: "Lib_input looks great"), with its pieces in LIB_DEV, LIB_GAMES and LIB_ig3d.
 
 ## Done
 
