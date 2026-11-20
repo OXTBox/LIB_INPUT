@@ -104,3 +104,7 @@ the Game Player with fed keys.
 ```
 cd ~/projects/OXT-BEYOND/tests && python3 -I oxt_headless.py --engine both t48_lib_input.txt
 ```
+
+## Licence
+
+GPL-3.0 (see `LICENSE`), because the xTalk work here is built on the GPL-licensed LiveCode Community 9 engine. Copyright (c) 2026 xAction.
